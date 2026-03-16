@@ -513,7 +513,8 @@ public class ChatModifier {
 
 
 
-        // 정상화 = Normalization... 젠장 신창섭 또 당신입니까
+        
+        
         String inputCopyDes = Normalizer.normalize(inputCopy, Normalizer.Form.NFD);
 
         inputCopyDes = inputCopyDes.replace("ᆸ시다", "자냥");
